@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  height: 25px;
+}
+.heading {
+  font-size: 17px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  min-height: 70px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin: 10px;
+}

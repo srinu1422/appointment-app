@@ -1,0 +1,94 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(#fbc7d4, #8b5cf6);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 80vh;
+  width: 90%;
+  border-radius: 7px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.responsive-container {
+  width: 90%;
+  margin: 30px;
+}
+.input {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 300px;
+  height: 32px;
+  padding: 8px;
+  text-transform: capitalize;
+}
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px;
+  width: 50px;
+  border-radius: 4px;
+  margin-top: 14px;
+}
+.seperator {
+  margin-top: 10px;
+}
+.heading {
+  color: #171f46;
+  font-size: 24px;
+}
+.stared-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strbtn {
+  width: 60px;
+  height: 24px;
+  color: #9897f0;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #9897f0;
+}
+.orderlist-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 
+@media screen and (max-width: 876px) {
+  .appointment-img {
+    height: 200px;
+    width: 300px;
+  }
+  .input {
+    width: 220px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .appointment-img {
+    height: 100px;
+    width: 150px;
+  }
+  .input {
+    width: 120px;
+    height: 22px;
+  }
+} */
